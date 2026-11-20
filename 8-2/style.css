@@ -1,0 +1,57 @@
+/*
+selectors {
+  property: value;
+}
+*/
+
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 147, 205);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: clip;
+}
+
+body>* {
+    width: 100%;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(207, 1, 90);
+}
+
+/* Class is .classname */
+
+.blue {
+    color: white;
+    background-color: navy;
+    width: 50%;
+}
+
+h1.blue {
+    background-color: rgb(10, 142, 146);
+}
+
+.purple {
+    background-color: rebeccapurple;
+}
+
+.big {
+    font-size: 24px;
+}
+
+.big.purple {
+    font-size: 48px;
+    background-color: plum;
+}
+
+#important {
+    font-family: monospace;
+    font-size: small;
+}
